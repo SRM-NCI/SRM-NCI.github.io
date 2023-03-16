@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rock, Paper, Scissors</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<h1>Rock, Paper, Scissors!</h1>
+		<a href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/"target="_blank">Rules</a></p>
+		<form id="playerOne">
+			<label>Player 1: Player 2 look away from the screen! Player 1 make your choice(1=Rock/2=Paper/3=Scissors):</label>
+			<input id="formPlayerOne">
+			<button id="buttonPlayerOne" onclick="checkOne()">Submit</button>
+		</form>
+		</br>
+		<form id="playerTwo">
+			<label>Player 2: Player 1 look away from the screen! Player 2 make your choice (1=Rock/ 2=Paper/ 3=Scissors):</label>
+			<input id="formPlayerTwo">
+			<button id="buttonPlayerTwo" onclick="checkTwo()">Submit</button>
+		</form>
+		</br>
+		<button id="buttonPlay" onclick="play()">Let's play!</button>
+		<script src="script.js"></script>
+	</body>
+</html>
